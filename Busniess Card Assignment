@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <style>
+        table{border-spacing: 30px;}
+        img {border-radius: 40%}
+</style>
+<style>
+    .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color:white;
+}
+</style>
+</head>
+<body>
+    <h1 align="center" >Business Card</h1>
+    <table>
+        <tr>
+            <td>
+                <img style="border-style:double;"  width="200" src="./R.jpeg" alt="Shahzaib's Profile Picture">
+            </td>
+            <td>
+                <h2>
+                    Muhammad Shahzaib <br>
+                    <h4>
+                        zebimughal965@gmail.com
+                    </h4>
+                </h2>
+            </td>
+        </tr>
+    </table>
+    <table style="border: 1px solid black ;">
+            <tr>
+                <th style="border: 1px solid black">
+                <b><i>Skills:</i></b> 
+                </th>
+                <th style="border: 1px solid black">
+                   <b><i>Interests:</i></b> 
+                </th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black">
+                    Wordpress
+                </td>
+                <td style="border: 1px solid black">
+                    Coding in BlockChain
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black">
+                    Drawing
+                </td>
+                <td style="border: 1px solid black">
+                    Cycling
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black">
+                    Cricket
+                </td>
+                <td style="border: 1px solid black">
+                    Footballing
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black">
+                    Html and Css
+                </td>
+                <td style="border: 1px solid black">
+                    Reading books
+                </td>
+            </tr>
+        </table>
+        <h2 align="center">Social Media Icons</h2>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-linkedin"></a>
+
+    
+
+</body>
+</html>
